@@ -1,0 +1,64 @@
+body{
+    background-color: #bda464;
+    font-family:  'Poppins', sans-serif;
+}
+h1{
+    color: blue;
+}
+li{
+    color:#0000FF;
+}
+p{ 
+    background-color: orange;
+}
+
+h3{
+    
+    border: red solid 5px;   
+}
+
+abbr {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.explanation{
+    color:red;
+}
+
+#zen-benefits p{
+    background-color: pink;
+}
+
+h2+ul li {
+    background-color: red;
+}
+p em {
+    color: red;
+    font-weight: bold;
+}
+a {
+    color: green;
+}
+
+h1 {
+    animation: bounce 1s infinite alternate;
+    -webkit-animation: bounce 1s infinite alternate;
+  }
+
+@keyframes bounce {
+    from {
+      transform: translateY(0px);
+    }
+    to {
+      transform: translateY(-15px);
+    }
+}
+@-webkit-keyframes bounce {
+    from {
+      transform: translateY(0px);
+    }
+    to {
+      transform: translateY(-15px);
+    }
+}
